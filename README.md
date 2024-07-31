@@ -2,6 +2,7 @@ Welcome to SpaceX.
 
 To use the application clone the repositories for frontend and backend.  Start up the backend in the Spring Boot root directory
 with the command 'docker-compose up'.  Start the frontend implementation in the angular root dir and use the command 'ng serve'.
+Open a fresh tab and access http://localhost:4200/register to begin.
 
 You first need to register a user and then login as that user.  The application is pretty straight forward you can add rockets and launches
 associated to a rocket using the 'Add Rocket' form and 'Add Launch' form.  You can view the rockets and their associated launches by clicking
