@@ -1,6 +1,6 @@
 Welcome to SpaceX.
 
-If you are reading this file on github use the code format for readability.
+If you are reading this file on github use the code format for readability.  If reading in intellij use the editor or 'editor and preview mode'.
 
     To use the application clone the repositories for frontend and backend: corkyahern/spacexbe (backend) and corkyahern/spacexfe (front end).  
 Start up the backend in the Spring Boot root directory with the command 'docker-compose up'. You may need to run 'mvn clean package' and 'docker build -t corkyahern662/spacex .' before hand.  
