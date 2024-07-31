@@ -22,6 +22,6 @@ public class Launch {
     @Column(nullable = false)
     private boolean success;
     @JsonBackReference
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
     private Rocket rocket;
 }
