@@ -2,10 +2,9 @@ Welcome to SpaceX.
 
 If you are reading this file on github use the code format for readability.
 
-To use the application clone the repositories for frontend and backend: corkyahern/spacexbe (backend) and corkyahern/spacexfe (front end).  
-Start up the backend in the Spring Boot root directory with the command 'docker-compose up'.  Start the frontend implementation 
-in the angular root dir and use the command 'ng serve'.  You may need to run 'npm install --save-dev @angular-devkit/build-angular' before hand.
-Open a fresh tab and access http://localhost:4200/register to begin.
+    To use the application clone the repositories for frontend and backend: corkyahern/spacexbe (backend) and corkyahern/spacexfe (front end).  
+Start up the backend in the Spring Boot root directory with the command 'docker-compose up'. You may need to run 'mvn clean package' and 'docker build -t corkyahern662/spacex .' before hand.  
+    Start the frontend implementation in the angular root dir and use the command 'ng serve'.  You may need to run 'npm install --save-dev @angular-devkit/build-angular' before hand. Open a fresh tab and access http://localhost:4200/register to begin.
 
 You first need to register a user and then login as that user.  The application is pretty straight forward you can add rockets and launches
 associated to a rocket using the 'Add Rocket' form and 'Add Launch' form.  You can view the rockets and their associated launches by clicking
